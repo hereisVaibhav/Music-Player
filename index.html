@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <title>it's Music Time</title>
+</head>
+
+<body>
+    <header>
+        <div class="menue_side">
+            <h1>Playlist</h1>
+            <div class="playlist">
+                <h4 class="active"><span></span><i class="bi bi-music-note"></i> Playlist</h4>
+                <h4><span></span><i class="bi bi-music-note"></i> Last Listening</h4>
+                <h4><span></span><i class="bi bi-music-note"></i> Recommended</h4>                
+            </div>
+            <div class="menue_song">
+                <li class="songItem">
+                    <span>21</span>
+                    <img src="img/21.jpg" alt="">
+                    <h5>Christmas Tree<br>
+                        <div class="subtitle">V</div>
+                    </h5>
+                    <i class="bi playlistPlay bi-play-fill" id="21"></i>
+                </li>
+
+                <li class="songItem">
+                    <span>01</span>
+                    <img src="img/1.jpg" alt="">
+                    <h5>On My Way <br>
+                        <div class="subtitle">Alan Walker</div>
+                    </h5>
+                    <i class="bi playlistPlay bi-play-fill" id="1"></i>
+                </li>
+
+                <li class="songItem">
+                    <span>02</span>
+                    <img src="img/2.jpg" alt="">
+                    <h5>Faded<br>
+                        <div class="subtitle">Alan Walker</div>
+                    </h5>
+                    <i class="bi playlistPlay bi-play-fill" id="2"></i>
+                </li>
+                
+                <li class="songItem">
+                    <span>03</span>
+                    <img src="img/3.jpg" alt="">
+                    <h5>On & on <br>
+                        <div class="subtitle">Cartoon</div>
+                    </h5>
+                    <i class="bi playlistPlay bi-play-fill" id="3"></i>
+                </li>
+
+                <li class="songItem">
+                    <span>04</span>
+                    <img src="img/4.jpg" alt="">
+                    <h5>Warrior<br>
+                        <div class="subtitle">Mortals</div>
+                    </h5>
+                    <i class="bi playlistPlay bi-play-fill" id="4"></i>
+                </li>
+
+                <li class="songItem">
+                    <span>05</span>
+                    <img src="img/5.jpg" alt="">
+                    <h5>Music <br>
+                        <div class="subtitle">Unknown</div>
+                    </h5>
+                    <i class="bi playlistPlay bi-play-fill" id="5"></i>
+                </li>
+                
+                <li class="songItem">
+                    <span>06</span>
+                    <img src="img/6.jpg" alt="">
+                    <h5>Hip Hop Music<br>
+                        <div class="subtitle">Unknown</div>
+                    </h5>
+                    <i class="bi playlistPlay bi-play-fill" id="6"></i>
+                </li>
+                
+                <li class="songItem">
+                    <span>07</span>
+                    <img src="img/7.jpg" alt="">
+                    <h5>Tamasha<br>
+                        <div class="subtitle">A.R Rahaman</div>
+                    </h5>
+                    <i class="bi playlistPlay bi-play-fill" id="7"></i>
+                </li>
+
+                <li class="songItem">
+                    <span>08</span>
+                    <img src="img/8.jpg" alt="">
+                    <h5>Sanak <br>
+                        <div class="subtitle">-</div>
+                    </h5>
+                    <i class="bi playlistPlay bi-play-fill" id="8"></i>
+                </li>
+
+                <li class="songItem">
+                    <span>09</span>
+                    <img src="img/9.jpg" alt="">
+                    <h5>Dilbar<br>
+                        <div class="subtitle">Neha Kakar</div>
+                    </h5>
+                    <i class="bi playlistPlay bi-play-fill" id="9"></i>
+                </li>
+            </div>
+        </div>
+        <div class="song_side">
+            <nav>
+                <ul>
+                    <li> <h3>Discover</h3><span></span></li>
+                    <li><h3>My Library </h3></li>
+                    <li><h3>Radio</h3></li>
+                </ul>
+                <div class="search">
+                    <i class="bi bi-search"></i>
+                    <input type="text" placeholder="Search Music....">
+                </div>
+                <div class="user">
+                    <img src="bts-v.jpg" alt="">
+                </div>
+            </nav>
+            <div class="content">
+                <div class="trending">
+                    <h1>Trending</h1>
+                </div>
+                <h1>V-Christmas Tree</h1>                
+                <p>In this moment I see you
+                    It always comes around, as I believed
+                    When the rain stops, you shine on me</p>
+                    <div class="buttons">
+                        <button>Play</button>
+                        <button>Follow</button>
+                    </div> 
+            </div>
+ 
+            <div class="popular_songs">
+                <div class="popular">
+                    <h4>Popular Songs</h4>
+                    <div class="btn_s">
+                        <i class="bi bi-arrow-bar-left" id="pop_song_left_btn"></i>
+                        <i class="bi bi-arrow-bar-right" id="pop_song_right_btn"></i>
+                    </div>
+                </div>
+                <div class="pop_song">
+
+                    <li class="songItem">
+                        <div class="img_click">
+                            <img src="img/10.jpg" alt="">
+                            <i class="bi playlistPlay bi-play-fill" id="10"></i>
+                        </div>                   
+                        
+                        <h5>Christmas Tree<br>
+                            <div class="subtitle">V</div>
+                        </h5>  
+
+                    </li>
+
+                    <li class="songItem">
+                        <div class="img_click">
+                            <img src="img/11.jpg" alt="">
+                            <i class="bi playlistPlay bi-play-fill" id="11"></i>
+                        </div>                   
+                        
+                        <h5>Christmas Tree<br>
+                            <div class="subtitle">V</div>
+                        </h5>     
+
+                    </li>
+
+                    <li class="songItem">
+                        <div class="img_click">
+                            <img src="img/12.jpg" alt="">
+                            <i class="bi playlistPlay bi-play-fill" id="12"></i>
+                        </div>                   
+                        
+                        <h5>Christmas Tree<br>
+                            <div class="subtitle">V</div>
+                        </h5>     
+
+                    </li>
+
+                    <li class="songItem">
+                        <div class="img_click">
+                            <img src="img/13.jpg" alt="">
+                            <i class="bi playlistPlay bi-play-fill" id="13"></i>
+                        </div>                   
+                        
+                        <h5>Christmas Tree<br>
+                            <div class="subtitle">V</div>
+                        </h5>     
+
+                    </li>
+
+                    <li class="songItem">
+                        <div class="img_click">
+                            <img src="img/14.jpg" alt="">
+                            <i class="bi playlistPlay bi-play-fill" id="14"></i>
+                        </div>                   
+                        
+                        <h5>Christmas Tree<br>
+                            <div class="subtitle">V</div>
+                        </h5>     
+
+                    </li>
+
+
+                    <li class="songItem">
+                        <div class="img_click">
+                            <img src="img/15.jpg" alt="">
+                            <i class="bi playlistPlay bi-play-fill" id="15"></i>
+                        </div>                   
+                        
+                        <h5>Christmas Tree<br>
+                            <div class="subtitle">V</div>
+                        </h5>     
+
+                    </li>
+
+
+                    <li class="songItem">
+                        <div class="img_click">
+                            <img src="img/16.jpg" alt="">
+                            <i class="bi playlistPlay bi-play-fill" id="16"></i>
+                        </div>                   
+                        
+                        <h5>Christmas Tree<br>
+                            <div class="subtitle">V</div>
+                        </h5>     
+
+                    </li>
+
+
+                    <li class="songItem">
+                        <div class="img_click">
+                            <img src="img/17.jpg" alt="">
+                            <i class="bi playlistPlay bi-play-fill" id="17"></i>
+                        </div>                   
+                        
+                        <h5>Christmas Tree<br>
+                            <div class="subtitle">V</div>
+                        </h5>     
+
+                    </li>
+
+
+                    <li class="songItem">
+                        <div class="img_click">
+                            <img src="img/18.jpg" alt="">
+                            <i class="bi playlistPlay bi-play-fill" id="18"></i>
+                        </div>                   
+                        
+                        <h5>Christmas Tree<br>
+                            <div class="subtitle">V</div>
+                        </h5>     
+
+                    </li>
+
+
+                    <li class="songItem">
+                        <div class="img_click">
+                            <img src="img/19.jpg" alt="">
+                            <i class="bi playlistPlay bi-play-fill" id="19"></i>
+                        </div>                   
+                        
+                        <h5>Christmas Tree<br>
+                            <div class="subtitle">V</div>
+                        </h5>     
+
+                    </li>
+
+
+                    <li class="songItem">
+                        <div class="img_click">
+                            <img src="img/20.jpg" alt="">
+                            <i class="bi playlistPlay bi-play-fill" id="20"></i>
+                        </div>                   
+                        
+                        <h5>Christmas Tree<br>
+                            <div class="subtitle">V</div>
+                        </h5>     
+
+                    </li>
+                </div>
+            </div>
+            <div class="popular_artists">
+                <div class="popular">
+                    <h4>Popular Artists</h4>
+                    <div class="btn_s">
+                        <i class="bi bi-arrow-bar-left" id="pop_art_left"></i>
+                        <i class="bi bi-arrow-bar-right" id="pop_art_right"></i>
+                    </div>
+                </div>
+                <div class="item">
+                    <li>
+                        <img src="img/arjit.jpg" alt="">
+                    </li> 
+
+                    
+                    <li>
+                        <img src="img/arjit.jpg" alt="">
+                    </li> 
+
+
+                    <li>
+                        <img src="img/arjit.jpg" alt="">
+                    </li> 
+
+
+                    <li>
+                        <img src="img/arjit.jpg" alt="">
+                    </li> 
+
+
+                    <li>
+                        <img src="img/arjit.jpg" alt="">
+                    </li> 
+
+
+                    <li>
+                        <img src="img/arjit.jpg" alt="">
+                    </li> 
+
+                    <li>
+                        <img src="img/arjit.jpg" alt="">
+                    </li> 
+
+
+                    <li>
+                        <img src="img/arjit.jpg" alt="">
+                    </li>
+
+
+                    <li>
+                        <img src="img/arjit.jpg" alt="">
+                    </li> 
+                    
+
+                    <li>
+                        <img src="img/arjit.jpg" alt="">
+                    </li>
+                    
+                    <li>
+                        <img src="img/arjit.jpg" alt="">
+                    </li> 
+
+                    <li>
+                        <img src="img/arjit.jpg" alt="">
+                    </li> 
+
+
+                    <li>
+                        <img src="img/arjit.jpg" alt="">
+                    </li> 
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="control_side">
+            <!-- <div class="wave" id="wave">
+                <div class="wave1"></div>
+                <div class="wave1"></div>
+                <div class="wave1"></div>
+            </div> -->
+            <img src="img/21.jpg" alt="" id="poster_control_side">
+            <h5 id="title">
+                Christmas Tree
+                <div class="subtitle">V</div>
+            </h5>
+            <div class="icon">
+                <i class="bi next bi-music-note-beamed">next</i>
+                <i class="bi bi-skip-start-fill" id="back"></i>
+                <i class="bi bi-play-fill" id="start"></i>
+                <i class="bi bi-skip-end-fill" id="next"></i>
+                <i class="bi bi-download" id="download_music"></i>
+            </div>
+            <span id="current_start">0:00</span>
+            <div class="bar">
+                <input type="range" id="seek_bar" min="0" max="100">
+                <div class="bar2" id="bar2"></div>
+                <div class="dot"></div>
+            </div>
+            <span id="current_end">0:30</span>
+            <div class="vol">
+                <i class="bi bi-volume-up" id="vol_icon"></i>
+                <input type="range" min="0" max="100" id="vol">
+                <div class="vol_bar"></div>
+                <div class="dot" id="vol_dot"></div>
+                
+            </div>
+        </div>
+    </header>
+
+
+    <script src="app.js"></script>
+    
+</body>
+</html>
